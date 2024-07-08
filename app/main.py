@@ -8,6 +8,6 @@ def index():
     return {"hello": "world"}
 
 
-@app.get("name")
+@app.get("/name")
 def name():
     return {"name": "modf"}
